@@ -1,0 +1,22 @@
+{
+  "name": "postgresql-learning",
+  "version": "1.0.0",
+  "description": "An introduction to implementing and using Postgres with Node.js and JavaScript. Mainly going to be used for learning and testing purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/movshov/Postgresql-Learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/movshov/Postgresql-Learning/issues"
+  },
+  "homepage": "https://github.com/movshov/Postgresql-Learning#readme",
+  "dependencies": {
+    "pg": "^7.8.0"
+  }
+}

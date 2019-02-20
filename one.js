@@ -14,7 +14,7 @@ var pool = new Pool(config);
 
 async function get_hits(){
 	try{
-	var query = "seelct * from users where username = $1 and password = $2"
+	var query = "select * from users where username = $1 and password = $2"
 	console.log(query);
 	var response = await pool.query(query, [user1, password2]);
 	console.log(response.rows);

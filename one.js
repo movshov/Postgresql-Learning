@@ -1,8 +1,8 @@
 var Pool = require('pg').Pool;
 var config = {
 	host: 'localhost',
-	user: 'musicmanager',
-	password: '443n0foUNaNA',
+	user: 'postgres',
+	password: '123456789',
 	database: 'billboard',
 };
 
@@ -14,9 +14,9 @@ var pool = new Pool(config);
 
 async function get_hits(){
 	try{
-	var query = "select * from users where username = $1 and password = $2"
-	console.log(query);
-	var response = await pool.query(query, [user1, password2]);
+	var query = "select * from users where username = $1";
+	console.log(query);	//display query.
+	var response = await pool.query(query, [user1] );
 	console.log(response.rows);
 	}
 	catch(e){

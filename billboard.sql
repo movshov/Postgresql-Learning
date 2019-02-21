@@ -22,8 +22,12 @@ create table users (
 	password text
 );
 
+/*   
+   Do Not Save Usernames & Passwords like this!!!!!    
+   This is for testing purposes only!!!    
+ */
 insert into users values
 
-	('ann', 'password'),
-	('ben', '12345678'),
+	('ann', 'password'),	
+	('ben', '12345678'),	
 	('clara','qwerty');

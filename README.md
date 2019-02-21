@@ -4,12 +4,9 @@ Purpose:
 
 Tools/Software:
 	Node.js - https://nodejs.org/en/ 
-<<<<<<< HEAD
-		Node.js is a JavaScript runtime environment. It includes all of the necessary files needed to run a JavaScript program. More information
-		about Node.js may be found here: https://nodejs.org/en/about
-=======
+
+/
 		Node.js is a JavaScript runtime environment. It includes all of the necessary files needed to run a JavaScript program. More information about Node.js may be found here: https://nodejs.org/en/about/ 
->>>>>>> 1d9798459a9b0b99e3acd537dd5b2790e28d2b4e
 
 /
 	PostgreSql - https://www.postgresql.org/download/ 

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/movshov/Postgresql-Learning#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "pg": "^7.8.0"
   }
 }
